@@ -43,15 +43,15 @@ module type, 5 is the level, and the last two numbers are the specific module
 code. Additionally, each module has two assignments, one in the first semester,
 and one in the second. The pass mark is 40% and my personal target is 70%.
 
-| Key                  | Module Name                                | A1 Grade | A2 Grade |
-|:---------------------|:-------------------------------------------|:---------|:---------|
-| :art: CI474          | Introduction to 3D Modelling and Animation |          |          |
-| :factory: CI514      | Embedded Systems                           |          |          |
-| :toolbox: CI517      | Game Engine Fundamentals                   | :free:   |          |
-| :technologist: CI536 | Integrated Group Project                   | :free:   |          |
-| :compression: CI541  | Game Development Frameworks                |          |          |
-| :penguin: CI583      | Data Structures and Operating Systems      |          | :free:   |
-| :joystick: CI587     | Web Based Game Development                 |          | :free:   |
+| Key                  | Module Name                                | A1 Grade               | A2 Grade               |
+|:---------------------|:-------------------------------------------|:-----------------------|:-----------------------|
+| :art: CI474          | Introduction to 3D Modelling and Animation |                        |                        |
+| :factory: CI514      | Embedded Systems                           |                        |                        |
+| :toolbox: CI517      | Game Engine Fundamentals                   | :free: (no assignment) |                        |
+| :technologist: CI536 | Integrated Group Project                   | :free: (no assignment) |                        |
+| :screwdriver: CI541  | Game Development Frameworks                |                        |                        |
+| :penguin: CI583      | Data Structures and Operating Systems      |                        | :free: (no assignment) |
+| :joystick: CI587     | Web Based Game Development                 |                        | :free: (no assignment) |
 
 <!-- USAGE EXAMPLES -->
 
@@ -80,7 +80,7 @@ The full list for these emoji are as follows:
 | :factory:       | `:factory:`       | CI514 Embedded Systems                           |
 | :toolbox:       | `:toolbox:`       | CI517 Game Engine Fundamentals                   |
 | :technologist:  | `:technologist:`  | CI536 Integrated Group Project                   |
-| :compression:   | `:compression:`   | CI541 Game Development Frameworks                |
+| :screwdriver:   | `:screwdriver:`   | CI541 Game Development Frameworks                |
 | :penguin:       | `:penguin:`       | CI583 Data Structures and Operating Systems      |
 | :joystick:      | `:joystick:`      | CI587 Web Based Game Development                 |
 
