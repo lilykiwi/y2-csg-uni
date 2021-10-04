@@ -49,7 +49,7 @@ and one in the second. The pass mark is 40% and my personal target is 70%.
 | :factory: CI514      | Embedded Systems                           |                        |                        |
 | :toolbox: CI517      | Game Engine Fundamentals                   | :free: (no assignment) |                        |
 | :technologist: CI536 | Integrated Group Project                   | :free: (no assignment) |                        |
-| :screwdriver: CI541  | Game Development Frameworks                |                        |                        |
+| :hammer: CI541       | Game Development Frameworks                |                        |                        |
 | :penguin: CI583      | Data Structures and Operating Systems      |                        | :free: (no assignment) |
 | :joystick: CI587     | Web Based Game Development                 |                        | :free: (no assignment) |
 
@@ -80,7 +80,7 @@ The full list for these emoji are as follows:
 | :factory:       | `:factory:`       | CI514 Embedded Systems                           |
 | :toolbox:       | `:toolbox:`       | CI517 Game Engine Fundamentals                   |
 | :technologist:  | `:technologist:`  | CI536 Integrated Group Project                   |
-| :screwdriver:   | `:screwdriver:`   | CI541 Game Development Frameworks                |
+| :hammer:        | `:hammer:`        | CI541 Game Development Frameworks                |
 | :penguin:       | `:penguin:`       | CI583 Data Structures and Operating Systems      |
 | :joystick:      | `:joystick:`      | CI587 Web Based Game Development                 |
 
