@@ -44,7 +44,7 @@ code. Additionally, each module has two assignments, one in the first semester,
 and one in the second. The pass mark is 40% and my personal target is 70%.
 
 | Key                  | Module Name                                | S1 Grade               | S2 Grade               |
-|:---------------------|:-------------------------------------------|:-----------------------|:-----------------------|
+| :------------------- | :----------------------------------------- | :--------------------- | :--------------------- |
 | :art: CI474          | Introduction to 3D Modelling and Animation |                        |                        |
 | :factory: CI514      | Embedded Systems                           |                        |                        |
 | :toolbox: CI517      | Game Engine Fundamentals                   | :free: (no assignment) |                        |
@@ -52,6 +52,14 @@ and one in the second. The pass mark is 40% and my personal target is 70%.
 | :hammer: CI541       | Game Development Frameworks                |                        |                        |
 | :penguin: CI583      | Data Structures and Operating Systems      |                        | :free: (no assignment) |
 | :joystick: CI587     | Web Based Game Development                 |                        | :free: (no assignment) |
+
+### Briefs
+
+- 474-introduction-to-3d-modelling-and-animation (pending)
+- 514-embedded-systems (pending)
+- [541-game-development-frameworks/briefs/CI541-Assignment-1.md](541-game-development-frameworks/briefs/CI541-Assignment-1.md)
+- 583-data-structures-and-operating-systems (pending)
+- [587-web-based-game-development/briefs/CI587-Assignment-1.md](587-web-based-game-development/briefs/CI587-Assignment-1.md)
 
 <!-- USAGE EXAMPLES -->
 
@@ -72,7 +80,7 @@ lab(474): :test_tube::art: finished the lab work for 2020-10-25
 The full list for these emoji are as follows:
 
 | Icon            | Shortcode         | Description                                      |
-|:----------------|:------------------|:-------------------------------------------------|
+| :-------------- | :---------------- | :----------------------------------------------- |
 | :bookmark_tabs: | `:bookmark_tabs:` | Lecture                                          |
 | :test_tube:     | `:test_tube:`     | Lab                                              |
 | :ledger:        | `:ledger:`        | Seminar                                          |
