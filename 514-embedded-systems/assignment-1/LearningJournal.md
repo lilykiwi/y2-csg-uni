@@ -341,7 +341,7 @@ Additionally, the hardcoded pins and dual loop could be improved. The following 
 
 Using this flowchart, implementing the following is possible:
 
-```c
+```patch
 @@ -32,29 +32,22 @@ int pedestrianTable[9][3] = {
      {1, 0, 500},
      {0, 1, 200}};
