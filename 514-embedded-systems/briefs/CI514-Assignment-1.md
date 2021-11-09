@@ -1,5 +1,5 @@
 
-# CI541 Assignment 1 - Game Prototype
+# CI514 Assignment 1 - Learning Journal
 
 | Module Title                                   | Game Development Frameworks              |
 | :--------------------------------------------- | :--------------------------------------- |
