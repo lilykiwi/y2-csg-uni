@@ -24,7 +24,9 @@ void loop() {
 
 This code initialises an internal pin for the built-in LED, then the firmware for the device calls `loop()` on repeat, with the `delay()` function serving as the frequency of the loop. Consider this as a `while true` loop, without needing the extra syntax. This code sends high voltage to the LED, waits a second, sends low voltage to the LED, waits, then restarts the cycle.
 
-TODO flowchart for this task
+![](img/BlinkChart.png)
+
+### Task 2
 
 For my purposes, this code should be rewritten to initialise 3 pins using the following circuit diagram:
 
@@ -89,14 +91,6 @@ This is a basic implementation of the traffic light system, although it doesn't 
 
 and repeat.
 
-TODO flowchart for this task
-
-### Task 2
-
-#### Part 1
-
-##### I.
-
 According to the brief, this code should be modified to have extra abstraction, using a function to control each of the traffic lights. My approach to this normally would involve using a class for each set of lights, with a method for changing state, using a tuple for the various states. This is impossible in C, however, as C has no classes or tuples (short of fancy implementations). In it's place, I will be using a switch/case function with a simple integer to control the state.
 
 ```c
@@ -149,9 +143,11 @@ void loop() {
 }
 ```
 
-This code is functional, having the 2nd set of traffic lights offset from the 1st by exactly half a cycle. The IDE didn't provide any snippets for switch/case or for like I'm used to with Visual Studio Code, however I managed to get the syntax right the first time around. This code works by looping over 4 values, 0 through 3, and having a delay between each value. The modulo function serves to offset the 2nd pair of traffic lights by 2 values, with a modulo to keep it within the range.
+This code is functional, having the 2nd set of traffic lights offset from the 1st by exactly half a cycle. The IDE didn't provide any snippets for switch/case or for like I'm used to with Visual Studio Code, however I managed to get the syntax right the first time around. This code works by looping over 4 values, 0 through 3, and having a delay between each value. The modulo function serves to offset the 2nd pair of traffic lights by 2 values, with a modulo to keep it within the range. The following flowchart describes how this code operates:
 
-There is, however, a major bug with this program: This only has 4 states, with two of the intermediary states (1 and 3) allowing the Amber lights to be on for both lights at once. This is a safety hazard, as cars will potentially interpret this as a signal that they can go, increasing the risk of collisions. On top of this, real-world traffic light systems do not allow this state configuration due to safety. Below is another truth table, with the illegal state highlighted with ⚠️.
+![](img/firstLoop.png)
+
+There is a major bug with this program, having only 4 states, with two of the intermediary states (1 and 3) allowing the Amber lights to be on for both lights at once. This is a safety hazard, as cars will potentially interpret this as a signal that they can go, increasing the risk of collisions. On top of this, real-world traffic light systems do not allow this state configuration due to safety. Below is another truth table, with the illegal state highlighted with ⚠️.
 
 | 13 (Green) | 12 (Amber) | 11 (Red) | 10 (Green) | 9 (Amber) | 8 (Red) |
 | :--------- | :--------- | :------- | :--------- | :-------- | :------ |
@@ -159,8 +155,6 @@ There is, however, a major bug with this program: This only has 4 states, with t
 | LOW        | ⚠️HIGH      | -        | -          | ⚠️HIGH     | -       |
 | -          | LOW        | HIGH     | HIGH       | LOW       | LOW     |
 | -          | ⚠️HIGH      | -        | LOW        | ⚠️HIGH     | -       |
-
-
 
 To remedy this issue, some extra states must be added, accounting for this potential configuration:
 
@@ -392,9 +386,9 @@ This would involve an implementation of something similar to the greedy algorith
 
 **3*n* + 2*m* < 13**
 
-Where *n* is the count of roads, and *m* is the count of pedestrian crossings
+Where *n* is the count of roads, and *m* is the count of pedestrian crossings.
 
-I believe this implementation, along with the asynchronous button read, to be out of scope for this project, due to the complexity of implementing them.
+Additionally, this could be improved with further circuitry in the form of an I/O Expander or something to decode binary. I believe this implementation, along with the asynchronous button read, to be out of scope for this project, due to the additional complexity of adding them. Further development would be spent on this avenue, however.
 
 ### Task 3
 
