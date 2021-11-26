@@ -380,7 +380,7 @@ Using this flowchart, implementing the following is possible:
 
 This subtracts an offset from the highest pin value, descending down in multiples of 3, starting at 13. For this implementation there are only 6 utilised pins for the main lights, and 2 for the pedestrian crossings, but further implementations would expand the pin space for the amount of crossings required in Part 2.
 
-The pins are currently somewhat hardcoded in this implementation, and could be assigned more programatically by adding a count for the amount of different lights required; pedestrian crossings only require 2 pins, as you can have many LEDs to those two pins, whereas each road direction needs 3 pins for each 3 lights (although it's possible to branch these out into multiple lights pointing in the same direction).
+The pins are currently somewhat hardcoded in this implementation, and could be assigned more programmatically by adding a count for the amount of different lights required; pedestrian crossings only require 2 pins, as you can have many LEDs to those two pins, whereas each road direction needs 3 pins for each 3 lights (although it's possible to branch these out into multiple lights pointing in the same direction).
 
 This would involve an implementation of something similar to the greedy algorithm, requiring the 3n values to be subtracted as long as they're needed, then 2m. An algebraic implementation of this is as follows;
 

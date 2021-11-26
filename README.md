@@ -57,10 +57,10 @@ and one in the second. The pass mark is 40% and my personal target is 70%.
 
 #### Assignment 1
 
-- 474-introduction-to-3d-modelling-and-animation (pending)
+- [474-introduction-to-3d-modelling-and-animation/briefs/CI474-Assignment-1.md](474-introduction-to-3d-modelling-and-animation/briefs/CI474-Assignment-1.md)
 - [514-embedded-systems/briefs/CI514-Assignment-1.md](514-embedded-systems/briefs/CI514-Assignment-1.md)
 - [541-game-development-frameworks/briefs/CI541-Assignment-1.md](541-game-development-frameworks/briefs/CI541-Assignment-1.md)
-- 583-data-structures-and-operating-systems (pending)
+- [583-data-structures-and-operating-systems/briefs/CI583-Assignment-1.md](583-data-structures-and-operating-systems/briefs/CI583-Assignment-1.md)
 - [587-web-based-game-development/briefs/CI587-Assignment-1.md](587-web-based-game-development/briefs/CI587-Assignment-1.md)
 
 <!-- USAGE EXAMPLES -->
