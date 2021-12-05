@@ -15,22 +15,13 @@
 </p>
 <br />
 
-<table>
-<tr>
-  <td>
-    <p>Web Based Game Development Assignment 1</p>
-    <a href="https://github.com/lilykiwi/y2-csg-uni-587-a1">
-      <img src=".github/587-a1.png" alt="587-a1 project">
-    </a>
-  </td>
-  <td>
-    <p>Embedded Programming Assignment 1</p>
-    <a href="https://lilykiwi.github.io/y2-csg-uni/514-a1">
-      <img src=".github/514-a1.png" alt="514-a1 project">
-    </a>
-  </td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://github.com/lilykiwi/y2-csg-uni-587-a1">
+  <img src=".github/587-a1.png" alt="587-a1 project" width="40%">
+  </a><a href="https://lilykiwi.github.io/y2-csg-uni/514-a1">
+  <img src=".github/514-a1.png" alt="514-a1 project" width="40%">
+  </a>
+</p>
 
 <!-- https://github.com/lilykiwi/y2-csg-uni-583-a1 -->
 
