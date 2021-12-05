@@ -17,9 +17,9 @@
 
 <p align="center">
   <a href="https://github.com/lilykiwi/y2-csg-uni-587-a1">
-  <img src=".github/587-a1.png" alt="587-a1 project" width="40%">
+  <img src=".github/587-a1.png" alt="587-a1 project" width="48%">
   </a><a href="https://lilykiwi.github.io/y2-csg-uni/514-a1">
-  <img src=".github/514-a1.png" alt="514-a1 project" width="40%">
+  <img src=".github/514-a1.png" alt="514-a1 project" width="48%">
   </a>
 </p>
 
@@ -75,34 +75,25 @@ and one in the second. The pass mark is 40% and my personal target is 70%.
 
 <!-- USAGE EXAMPLES -->
 
-## Usage
+<!--## Usage-->
 
-Nothing yet!
+<!--Nothing yet!-->
 
 <!-- CONTRIBUTING -->
 
 ## Contributing
 
-This repository follows [conventional commit guidelines](https://www.conventionalcommits.org/en/v1.0.0/). Custom types are added for various types of commit. Additionally, module codes have their own specific emoji to help identify what a commit is for. For example, a CI474 Lab would look like this:
+This repository follows [conventional commit guidelines](https://www.conventionalcommits.org/en/v1.0.0/). Custom types (with emoji) are added for various types of commit.
 
 ```plaintext
-lab(474): :test_tube::art: finished the lab work for 2020-10-25
+lab: :test_tube: finished the lab work for 2020-10-25
 ```
 
-The full list for these emoji are as follows:
-
-| Icon            | Shortcode         | Description                                      |
-| :-------------- | :---------------- | :----------------------------------------------- |
-| :bookmark_tabs: | `:bookmark_tabs:` | Lecture                                          |
-| :test_tube:     | `:test_tube:`     | Lab                                              |
-| :ledger:        | `:ledger:`        | Seminar                                          |
-| :art:           | `:art:`           | CI474 Introduction to 3D Modelling and Animation |
-| :factory:       | `:factory:`       | CI514 Embedded Systems                           |
-| :toolbox:       | `:toolbox:`       | CI517 Game Engine Fundamentals                   |
-| :technologist:  | `:technologist:`  | CI536 Integrated Group Project                   |
-| :hammer:        | `:hammer:`        | CI541 Game Development Frameworks                |
-| :penguin:       | `:penguin:`       | CI583 Data Structures and Operating Systems      |
-| :joystick:      | `:joystick:`      | CI587 Web Based Game Development                 |
+| Icon            | Shortcode         | Description |
+| :-------------- | :---------------- | :---------- |
+| :bookmark_tabs: | `:bookmark_tabs:` | Lecture     |
+| :test_tube:     | `:test_tube:`     | Lab         |
+| :ledger:        | `:ledger:`        | Seminar     |
 
 
 ## License
