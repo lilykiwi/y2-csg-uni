@@ -1,18 +1,9 @@
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/lilykiwi/y2-csg-uni">
-    <img src=".github/uni.png" alt="Logo" width="160" height="160">
-  </a>
+<h1 align="center">
+  Computer Science for Games · Year 2
+  <br />
+  <a href="https://github.com/lilykiwi/y1-csg-uni">Link to Previous Year</a>
+</h1>
 
-  <h2 align="center">y2-csg-uni</h2>
-
-  <p align="center">
-    Computer Science for Games · Year 2
-    <br />
-    <a href="https://github.com/lilykiwi/y1-csg-uni"><strong>Link to Previous Year</strong></a>
-  </p>
-</p>
 <br />
 
 <p align="center">
