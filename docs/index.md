@@ -1,20 +1,6 @@
-<h1 align="center">
+<h1>
   Computer Science for Games · Year 2
-  <br />
-  <a href="https://github.com/lilykiwi/y1-csg-uni">Link to Previous Year</a>
 </h1>
-
-<br />
-
-<p align="center">
-  <a href="https://github.com/lilykiwi/y2-csg-uni-587-a1">
-  <img src=".github/587-a1.png" alt="587-a1 project" width="48%">
-  </a><a href="https://lilykiwi.github.io/y2-csg-uni/514-a1">
-  <img src=".github/514-a1.png" alt="514-a1 project" width="48%">
-  </a>
-</p>
-
-<!-- https://github.com/lilykiwi/y2-csg-uni-583-a1 -->
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -24,6 +10,8 @@
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
+
+---
 
 <!-- ABOUT THE PROJECT -->
 
