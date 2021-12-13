@@ -1,37 +1,75 @@
-## Welcome to GitHub Pages
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/lilykiwi/y2-csg-uni">
+    <img src=".github/uni.png" alt="Logo" width="160" height="160">
+  </a>
 
-You can use the [editor on GitHub](https://github.com/lilykiwi/y2-csg-uni/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+  <h2 align="center">y2-csg-uni</h2>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  <p align="center">
+    Computer Science for Games · Year 2
+    <br />
+    <a href="https://github.com/lilykiwi/y1-csg-uni"><strong>Link to Previous Year</strong></a>
+  </p>
+</p>
+<br />
 
-### Markdown
+<p align="center">
+  <a href="https://github.com/lilykiwi/y2-csg-uni-587-a1">
+  <img src=".github/587-a1.png" alt="587-a1 project" width="48%">
+  </a><a href="https://lilykiwi.github.io/y2-csg-uni/514-a1">
+  <img src=".github/514-a1.png" alt="514-a1 project" width="48%">
+  </a>
+</p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<!-- https://github.com/lilykiwi/y2-csg-uni-583-a1 -->
 
-```markdown
-Syntax highlighted code block
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-# Header 1
-## Header 2
-### Header 3
+<!-- ABOUT THE PROJECT -->
 
-- Bulleted
-- List
+## About The Project
 
-1. Numbered
-2. List
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-**Bold** and _Italic_ and `Code` text
+This is the second year of my Computer Science for Games repository, being
+conducted at the University of Brighton in England. Most of the included
+material is currently in a messy state, and I will be intending to fix it up and
+present everything in the docs provided above by the end of the course.
 
-[Link](url) and ![Image](src)
-```
+The module codes for this course follow the template CI5XX, where CI is the the
+module type, 5 is the level, and the last two numbers are the specific module
+code. Additionally, each module has two assignments, one in the first semester,
+and one in the second. The pass mark is 40% and my personal target is 70%.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+| Key                  | Module Name                                | S1 Grade               | S2 Grade               |
+| :------------------- | :----------------------------------------- | :--------------------- | :--------------------- |
+| :art: CI474          | Introduction to 3D Modelling and Animation |                        |                        |
+| :factory: CI514      | Embedded Systems                           |                        |                        |
+| :toolbox: CI517      | Game Engine Fundamentals                   | :free: (no assignment) |                        |
+| :technologist: CI536 | Integrated Group Project                   | :free: (no assignment) |                        |
+| :hammer: CI541       | Game Development Frameworks                |                        |                        |
+| :penguin: CI583      | Data Structures and Operating Systems      |                        | :free: (no assignment) |
+| :joystick: CI587     | Web Based Game Development                 |                        | :free: (no assignment) |
 
-### Jekyll Themes
+<!-- LICENSE -->
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lilykiwi/y2-csg-uni/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## License
 
-### Support or Contact
+Distributed under the MIT License. See `LICENSE.md` for more information.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!-- CONTACT -->
+
+## Contact
+
+Lily Hayes - [@lilykiwi\_](https://twitter.com/lilykiwi_) - lilykiwi9911@pm.me
+
+Project Link: [https://github.com/lilykiwi/y2-csg-uni](https://github.com/lilykiwi/y2-csg-uni)
