@@ -13,6 +13,7 @@
     <a href="https://github.com/lilykiwi/y1-csg-uni"><strong>Link to Previous Year</strong></a> • <a href="https://lilykiwi.github.io/y2-csg-uni"><strong>Explore the docs »</strong></a>
   </p>
 </p>
+
 <br />
 
 <p align="center">
