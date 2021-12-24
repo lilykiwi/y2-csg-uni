@@ -129,3 +129,48 @@ The header could contain the number of bits contained in the frequency value, i.
 ```
 
 This allows for smaller headers as it cuts out extraneous data: the majority of the data in a header with 8 byte integers will be 0's.
+
+The first byte should be a char, depending on the charset (ascii is only 1 byte per character). We have a choice in how long the next object can be, as it will dictate the maximum length of the integer component after it:
+
+```
+2^1 = 2
+2^2 = 4
+2^3 = 8
+2^4 = 16
+2^5 = 32
+2^6 = 64
+2^7 = 128
+2^8 = 256
+```
+
+you can store any int32 (int) length in 5 bits, or any int64 (long) length in 6 bits. Having a whole byte for this assignment is wasteful as you are unlikely to go over a long in terms of frequency: that many bytes is something in the neighbourhood of 8 exabytes, which is unreasonable for a quantity of characters in any text file. It is feasible that 2^31 occurences of a character could appear in a file, as that would represent 8MiB or so of one character; a large text file, but not impossible. For this reason, the length of the block should be 6 bits.
+
+This means that the optimal encoding block is
+
+```
+| char | | ln | | dat |
+AAAAAAAA BBBBBB CC...CC
+```
+
+where the quantity of bits for `dat` is dictated by the value of `ln`.
+
+For example,
+
+```
+| char | | ln | | dat |
+| "A"  | | 7  | | 83  |
+01000001 000111 1010011
+                |-----| 7 bits
+```
+
+To be verbose, we can also encode the charset length, charset, and `ln` length.
+
+---
+
+## References
+
+<https://www.youtube.com/watch?v=B3y0RsVCyrw>
+<https://www.youtube.com/watch?v=jq5WueyOh1A>
+<https://docs.oracle.com/javase/7/docs/api/java/io/ObjectOutputStream.html>
+<https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html>
+<https://docs.oracle.com/javase/7/docs/api/java/util/BitSet.html>
