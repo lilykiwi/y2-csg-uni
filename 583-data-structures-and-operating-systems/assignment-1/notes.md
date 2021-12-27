@@ -1,5 +1,4 @@
-
----
+# Notes
 
 ## Binary Trees
 
@@ -26,15 +25,11 @@ first bit does nothing?
 
 same amount of data
 
----
-
 ## Frequency analysis
 
-Read the file byte by byte, creating an array of characters and their frequency. Using an object with properities char(primitive) and uint64? sort the array by 2nd property and then run through the characters in order.
+Read the file byte by byte, creating an array of characters and their frequency. Using an object with properties char(primitive) and uint64? sort the array by 2nd property and then run through the characters in order.
 
 Analysis needed for how huffman trees encode characters, but having a frequency dictionary is half the battle.
-
----
 
 ## Objects
 
@@ -46,8 +41,6 @@ NodeCharacter
   has frequency value
   has no children nodes
   has char primitive
-
----
 
 ## Encoding the tree
 
@@ -98,9 +91,6 @@ A27 B15      24
         C    D E    F
 
 ```
-
-
----
 
 ## Serialisation
 
@@ -163,9 +153,13 @@ For example,
                 |-----| 7 bits
 ```
 
-To be verbose, we can also encode the charset length, charset, and `ln` length.
+To be verbose, we can also encode the charset length, charset, and `ln` length in the header.
 
----
+Correction: The charset is insignificant, as we can use byte values instead of character values; this allows for plaintext (i.e. ascii) to be properly compressed using huffman coding, and it allows for things like UTF-8 and larger charsets to work without much difficulty. It also allows for binary files to be compressed, although that may have limited utility.
+
+## Implementation
+
+Running through the provided code, using `mvn test`, there are 8 test errors and 0 failures.
 
 ## References
 
