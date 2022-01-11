@@ -392,6 +392,13 @@ Additionally, this could be improved with further circuitry in the form of an I/
 
 ### Task 3
 
+This task involves pushing 50 random values between 0 and 255 to an array, then sorting them in ascending or descending order. This involves implementing two different sorting algorithms of my choice, and outputting the sorted array to the serial monitor. On top of this, I'm going to see if I can do some performance metrics with the serial monitor.
+
+There are 8 L.E.Ds that are required for this part, and I'm going to make them display the lowest value and highest value, as well as the current comparison (if applicable). I'm going to implement Bubble sort and Radix sort, as they differ in complexity; bubble sort has high time complexity and low space complexity, whereas radix sort is less temporally complex, but has higher space complexity. TODO REF4
+
+![](img/2022-01-11-14-07-41.png)
+TODO REF4
+
 ## References
 
 TODO REF1 https://www.arduino.cc/reference/en/language/functions/digital-io/pinmode/
@@ -399,3 +406,5 @@ TODO REF1 https://www.arduino.cc/reference/en/language/functions/digital-io/pinm
 TODO REF2 https://www.tutorialspoint.com/cprogramming/c_arrays.htm
 
 TODO REF3 https://flaviocopes.com/c-array-length/
+
+TODO REF4 https://medium.com/@george.seif94/a-tour-of-the-top-5-sorting-algorithms-with-python-code-43ea9aa02889
