@@ -89,9 +89,6 @@ public class Huffman {
     Node left = null;
     Node right = null;
 
-    int nodesLeft = -1;
-    nodesLeft = q.size();
-
     while (q.size() > 1) {
       // pop the last 2 values and merge them into a branch
       left = q.dequeue();
@@ -119,7 +116,7 @@ public class Huffman {
    *         labelled c.
    */
   public static Map<Character, List<Boolean>> buildCode(Node tree) {
-    throw new UnsupportedOperationException("Method not implemented");
+    return tree.traverse(new ArrayList<>());
   }
 
   /**
@@ -138,7 +135,19 @@ public class Huffman {
    * @return The Huffman coding.
    */
   public static HuffmanCoding encode(String input) {
-    throw new UnsupportedOperationException("Method not implemented");
+    // create the code points based on the input using above methods
+    Map<Character, Integer> table = freqTable(input);
+    Node tree = treeFromFreqTable(table);
+    Map<Character, List<Boolean>> code = buildCode(tree);
+
+    // populate the array using a lookup derived from the char in the string
+    ArrayList<Boolean> data = new ArrayList<>();
+    for (int i = 0; i < input.length(); i++) {
+      data.addAll(code.get(input.charAt(i)));
+    }
+
+    // return both values (code and data array)
+    return new HuffmanCoding(code, data);
   }
 
   /**
@@ -149,10 +158,9 @@ public class Huffman {
    * Your tree will start as a single Branch node with null children.
    *
    * Then for each character key in the code, c, take the list of booleans, bs,
-   * corresponding to c. Make
-   * a local variable referring to the root of the tree. For every boolean, b, in
-   * bs, if b is false you want to "go
-   * left" in the tree, otherwise "go right".
+   * corresponding to c. Make a local variable referring to the root of the tree.
+   * For every boolean, b, in bs, if b is false you want to "go left" in the tree,
+   * otherwise "go right".
    *
    * Presume b is false, so you want to go left. So long as you are not at the end
    * of the code so you should set the
@@ -170,9 +178,78 @@ public class Huffman {
    *
    * @param code The code.
    * @return The reconstructed tree.
+   *
+   *         ! refactor this please
+   *
+   *         see readme.md:
+   *         ```
+   *         procedure treeFromCode(code): -- code is a map from characters to
+   *         lists of booleans (representing bits)
+   *         root <- NEW BRANCH NODE WITH NULL CHILDREN
+   *         chars <- KEYS FROM code
+   *         FOR c IN chars:
+   *         currentNode <- root
+   *         bs <- LOOKUP c IN code
+   *         FOR b IN bs:
+   *         IF b = false:
+   *         IF b = LAST ELEMENT IN bs:
+   *         currentNode.left = NEW LEAF NODE LABELLED BY c
+   *         ELSIF currentNode.left = null:
+   *         currentNode.left = NEW BRANCH NODE WITH NULL CHILDREN
+   *         ENDIF
+   *         currentNode <- currentNode.left
+   *         ELSIF b = true:
+   *         -- same logic but operating on right child
+   *         ENDIF
+   *         ENDFOR
+   *         ENDFOR
+   *         return root
+   *         END
+   *         ```
    */
   public static Node treeFromCode(Map<Character, List<Boolean>> code) {
-    throw new UnsupportedOperationException("Method not implemented");
+    Branch base = new Branch(0, null, null);
+    Set<Character> chars = code.keySet();
+
+    for (char c : chars) {
+
+      Node current = base;
+
+      Iterator<Boolean> bs = code.get(c).iterator();
+
+      while (bs.hasNext()) {
+        Boolean b = bs.next();
+        if (b) {
+          if (!bs.hasNext()) {
+            // there isn't anything next, so set a leaf on the right
+            ((Branch) current).setRight(new Leaf(c, 0));
+            current = ((Branch) current).getRight();
+          } else if (((Branch) current).getRight() == null) {
+            // there's something next and nothing to the right, so create a branch
+            ((Branch) current).setRight(new Branch(0, null, null));
+            current = ((Branch) current).getRight();
+          } else {
+            // something next and it already exists, so move down
+            current = ((Branch) current).getRight();
+          }
+        } else {
+          if (!bs.hasNext()) {
+            // there isn't anything next, so set a leaf on the right
+            ((Branch) current).setLeft(new Leaf(c, 0));
+            current = ((Branch) current).getLeft();
+          } else if (((Branch) current).getLeft() == null) {
+            // there's something next and nothing to the right, so create a branch
+            ((Branch) current).setLeft(new Branch(0, null, null));
+            current = ((Branch) current).getLeft();
+          } else {
+            // something next and it already exists, so move down
+            current = ((Branch) current).getLeft();
+          }
+        }
+      }
+    }
+
+    return base;
   }
 
   /**
@@ -191,6 +268,25 @@ public class Huffman {
    * @return The decoded string.
    */
   public static String decode(Map<Character, List<Boolean>> code, List<Boolean> data) {
-    throw new UnsupportedOperationException("Method not implemented");
+    Node root = treeFromCode(code);
+    Node readHead = root;
+
+    String tempOut = "";
+
+    for (Boolean b : data) {
+      if (readHead instanceof Branch) {
+        if (b) {
+          readHead = ((Branch) readHead).getRight();
+        } else {
+          readHead = ((Branch) readHead).getLeft();
+        }
+        if (readHead instanceof Leaf) {
+          tempOut += ((Leaf) readHead).getLabel();
+          readHead = root;
+        }
+      }
+    }
+
+    return tempOut;
   }
 }

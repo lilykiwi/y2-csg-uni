@@ -4,6 +4,7 @@ package huffman.tree;
 import java.util.List;
 import java.util.Map;
 import java.util.HashMap;
+import java.util.ArrayList;
 
 /**
  * A branch node in a Huffman tree.
@@ -45,13 +46,18 @@ public class Branch extends Node {
 
     Map<Character, List<Boolean>> map = new HashMap<>();
 
-    List<Boolean> leftList = list;
-    leftList.add(true);
-    List<Boolean> rightList = list;
-    rightList.add(false);
+    List<Boolean> leftList = new ArrayList<Boolean>();
+    leftList.addAll(list);
+    leftList.add(false);
+    List<Boolean> rightList = new ArrayList<Boolean>(); // new list
+    rightList.addAll(list);
+    rightList.add(true);
 
-    this.left.traverse(leftList);
-    this.right.traverse(rightList);
+    Map<Character, List<Boolean>> lMap = this.left.traverse(leftList);
+    Map<Character, List<Boolean>> rMap = this.right.traverse(rightList);
+
+    map.putAll(lMap);
+    map.putAll(rMap);
 
     return map;
   }

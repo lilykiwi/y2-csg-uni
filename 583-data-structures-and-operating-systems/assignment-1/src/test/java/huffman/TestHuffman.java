@@ -93,7 +93,8 @@ public class TestHuffman {
   @Test
   public void testCompressBook() {
     try {
-      String input = Files.readString(Path.of("etc/pg1459.txt"), StandardCharsets.ISO_8859_1);
+      String input = Files.readString(Path.of("etc/pg1459.txt"),
+          StandardCharsets.ISO_8859_1);
       HuffmanCoding hc = Huffman.encode(input);
       String decode = Huffman.decode(hc.getCode(), hc.getData());
       assertEquals(input, decode);
@@ -134,7 +135,8 @@ public class TestHuffman {
   public void testSaveAndRead() {
     try {
       String inputPath = "etc/pg1459.txt";
-      String input = Files.readString(Path.of(inputPath), StandardCharsets.ISO_8859_1);
+      String input = Files.readString(Path.of(inputPath),
+          StandardCharsets.ISO_8859_1);
       HuffmanCoding hc = Huffman.encode(input);
       String outputPath = "etc/pg1459.hc";
       hc.save(outputPath);
@@ -148,4 +150,5 @@ public class TestHuffman {
       e.printStackTrace();
     }
   }
+
 }
