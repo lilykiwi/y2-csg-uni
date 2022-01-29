@@ -107,7 +107,7 @@ public class TestHuffman {
   public void compressionBenchmark() {
     try {
       String input = Files.readString(Path.of("etc/pg1459.txt"), StandardCharsets.ISO_8859_1);
-      HuffmanCoding hc = Huffman.encode(input); // fails
+      HuffmanCoding hc = Huffman.encode(input);
       hc.save("etc/pg1459.hc");
 
       // Java chars take up two bytes each
