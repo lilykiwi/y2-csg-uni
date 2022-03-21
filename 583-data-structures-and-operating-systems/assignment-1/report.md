@@ -73,6 +73,42 @@ Tar compression has a reduction of 56%, whereas Huffman has a reduction of 69.16
 
 Huffman coding is also lossless, making it a good fit for text and potentially some binary files, but a bad fit for audio, video and pictures. Although there are instances where this may be advantageous, these types of data are generally encoded with lossy formats, as the lost data is an acceptable tradeoff for smaller filesizes. Text encoding must be lossless, as lossy text encoding will result in unintelligible spelling and lost data, as text is very sensitive to information loss. ^^3^^
 
+## Section 2
+
+Overview:
+
+Sorting algorithms
+Stack/Queue/Priority Queue
+LIFO, FIFO, LIFO, LILO
+Radix Sort
+Bubble Sort
+Selection Sort
+Insertion Sort
+Trees
+Binary Tree/Heap
+Balanced and Self Balancing Trees
+Recursion
+Tail Recursion
+Dijkstra's
+Backtracking (Maze pathfinding)
+N-Queens Problem - nonpromising nodes
+Dynamic Programming
+P=NP
+Merge Sort
+Quick Sort
+Hash Tables
+Hash Functions
+Collision avoidance
+ - Probing
+ - Quadratic probing
+ - Double hashing
+Separate Chaining
+Generating prime numbers
+Implementing a hash function
+Random Numbers
+Encryption
+Lossy Algorithms
+
 ^^ 1: https://hackernoon.com/big-o-for-beginners-622a64760e2 ^^
 ^^ 2: https://www.youtube.com/watch?v=B3y0RsVCyrw ^^
 ^^ 3: file:///home/lily/downloads/IJAIEM-2016-07-27-28.pdf ^^
