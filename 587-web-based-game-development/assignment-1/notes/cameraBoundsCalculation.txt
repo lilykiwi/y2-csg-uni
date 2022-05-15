@@ -1,0 +1,23 @@
+view wider than scene:
+	pos: 1/2 * sceneWidth - 1/2 * viewWidth
+	width: viewWidth
+
+view less wide than scene
+  pos: 0
+  width: sceneWidth
+
+view taller than scene:
+	pos: 0
+	height: viewHeight
+
+view shorter than scene:
+	pos: 0
+	height: sceneHeight
+
+horizontal
+	pos = min(0, 1/2*sceneWidth - 1/2*viewWidth)
+	width = max(viewWidth, sceneWidth)
+
+vertical:
+	pos = 0
+	height = min(viewHeight, sceneHeight)

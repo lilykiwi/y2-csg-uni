@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "headerWidth": 21,
+    "bodyWidth": 9,
+    "tileSize": 64
+  },
+  "data": {
+    "header": [
+      "wall_transition_start_0",
+      "wall_transition_start_1",
+      "wall_column",
+      "wall_blank",
+      "wall_blank",
+      "wall_blank",
+      "wall_column",
+      "wall_left_gap",
+      "wall_entrance",
+      "wall_right_gap",
+      "wall_column",
+      "wall_left_gap",
+      "wall_entrance",
+      "wall_right_gap",
+      "wall_column",
+      "wall_blank",
+      "wall_blank",
+      "wall_blank",
+      "wall_column",
+      "wall_transition_end_0",
+      "wall_transition_end_1"
+    ],
+    "body": [
+      [0, 0, 1, 0, 0, 0, 1, 0, 0],
+      [0, 0, 1, 1, 1, 1, 1, 0, 0],
+      [0, 0, 0, 0, 1, 0, 0, 0, 0],
+      [0, 0, 0, 1, 1, 1, 0, 0, 0],
+      [0, 0, 0, 1, 0, 1, 0, 0, 0],
+      [0, 0, 0, 1, 0, 1, 0, 0, 0],
+      [0, 0, 0, 1, 0, 1, 0, 0, 0],
+      [0, 0, 0, 1, 1, 1, 0, 0, 0],
+      [0, 0, 0, 0, 1, 0, 0, 0, 0],
+      [0, 0, 1, 1, 1, 1, 1, 0, 0],
+      [0, 0, 1, 0, 0, 0, 1, 0, 0]
+    ]
+  }
+}

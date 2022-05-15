@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "noImplicitAny": false,
+    "noEmit": true,
+    "allowJs": true,
+    "importHelpers": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "typeRoots": ["../node_modules", "../node_modules/phaser/types"],
+    "types": ["phaser"]
+  },
+  "include": ["public", "src"]
+}

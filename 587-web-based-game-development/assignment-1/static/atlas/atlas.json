@@ -1,0 +1,361 @@
+{
+  "frames": {
+    "wall_transition_start_0": {
+      "frame": { "x": 0, "y": 0, "w": 32, "h": 128 }
+    },
+    "wall_transition_start_1": {
+      "frame": { "x": 32, "y": 0, "w": 32, "h": 128 }
+    },
+    "wall_column": {
+      "frame": { "x": 64, "y": 0, "w": 32, "h": 128 }
+    },
+    "wall_blank": {
+      "frame": { "x": 96, "y": 0, "w": 32, "h": 128 }
+    },
+    "wall_left_gap": {
+      "frame": { "x": 128, "y": 0, "w": 32, "h": 128 }
+    },
+    "wall_entrance": {
+      "frame": { "x": 160, "y": 0, "w": 32, "h": 128 }
+    },
+    "wall_right_gap": {
+      "frame": { "x": 192, "y": 0, "w": 32, "h": 128 }
+    },
+    "wall_transition_end_0": {
+      "frame": { "x": 224, "y": 0, "w": 32, "h": 128 }
+    },
+    "wall_transition_end_1": {
+      "frame": { "x": 256, "y": 0, "w": 32, "h": 128 }
+    },
+    "wall_high_0": {
+      "frame": { "x": 288, "y": 0, "w": 32, "h": 128 }
+    },
+    "wall_high_1": {
+      "frame": { "x": 320, "y": 0, "w": 32, "h": 128 }
+    },
+    "wall_high_2": {
+      "frame": { "x": 352, "y": 0, "w": 32, "h": 128 }
+    },
+    "wall_high_3": {
+      "frame": { "x": 384, "y": 0, "w": 32, "h": 128 }
+    },
+    "grass": {
+      "frame": { "x": 0, "y": 128, "w": 32, "h": 32 }
+    },
+    "path": {
+      "frame": { "x": 32, "y": 128, "w": 32, "h": 32 }
+    },
+    "emplacement_0": {
+      "frame": { "x": 0, "y": 256, "w": 32, "h": 32 }
+    },
+    "emplacement_1": {
+      "frame": { "x": 32, "y": 256, "w": 32, "h": 32 }
+    },
+    "emplacement_2": {
+      "frame": { "x": 64, "y": 256, "w": 32, "h": 32 }
+    },
+    "emplacement_3": {
+      "frame": { "x": 96, "y": 256, "w": 32, "h": 32 }
+    },
+    "emplacement_4": {
+      "frame": { "x": 0, "y": 288, "w": 32, "h": 32 }
+    },
+    "emplacement_5": {
+      "frame": { "x": 32, "y": 288, "w": 32, "h": 32 }
+    },
+    "emplacement_6": {
+      "frame": { "x": 64, "y": 288, "w": 32, "h": 32 }
+    },
+    "emplacement_7": {
+      "frame": { "x": 96, "y": 288, "w": 32, "h": 32 }
+    },
+    "emplacement_8": {
+      "frame": { "x": 0, "y": 320, "w": 32, "h": 32 }
+    },
+    "emplacement_9": {
+      "frame": { "x": 32, "y": 320, "w": 32, "h": 32 }
+    },
+    "emplacement_10": {
+      "frame": { "x": 64, "y": 320, "w": 32, "h": 32 }
+    },
+    "emplacement_11": {
+      "frame": { "x": 96, "y": 320, "w": 32, "h": 32 }
+    },
+    "emplacement_12": {
+      "frame": { "x": 0, "y": 352, "w": 32, "h": 32 }
+    },
+    "emplacement_13": {
+      "frame": { "x": 32, "y": 352, "w": 32, "h": 32 }
+    },
+    "emplacement_14": {
+      "frame": { "x": 64, "y": 352, "w": 32, "h": 32 }
+    },
+    "emplacement_15": {
+      "frame": { "x": 96, "y": 352, "w": 32, "h": 32 }
+    },
+    "barrier_0": {
+      "frame": { "x": 128, "y": 256, "w": 32, "h": 32 }
+    },
+    "barrier_1": {
+      "frame": { "x": 160, "y": 256, "w": 32, "h": 32 }
+    },
+    "barrier_2": {
+      "frame": { "x": 192, "y": 256, "w": 32, "h": 32 }
+    },
+    "barrier_3": {
+      "frame": { "x": 224, "y": 256, "w": 32, "h": 32 }
+    },
+    "barrier_4": {
+      "frame": { "x": 128, "y": 288, "w": 32, "h": 32 }
+    },
+    "barrier_5": {
+      "frame": { "x": 160, "y": 288, "w": 32, "h": 32 }
+    },
+    "barrier_6": {
+      "frame": { "x": 192, "y": 288, "w": 32, "h": 32 }
+    },
+    "barrier_7": {
+      "frame": { "x": 224, "y": 288, "w": 32, "h": 32 }
+    },
+    "barrier_8": {
+      "frame": { "x": 128, "y": 320, "w": 32, "h": 32 }
+    },
+    "barrier_9": {
+      "frame": { "x": 160, "y": 320, "w": 32, "h": 32 }
+    },
+    "barrier_10": {
+      "frame": { "x": 192, "y": 320, "w": 32, "h": 32 }
+    },
+    "barrier_11": {
+      "frame": { "x": 224, "y": 320, "w": 32, "h": 32 }
+    },
+    "barrier_12": {
+      "frame": { "x": 128, "y": 352, "w": 32, "h": 32 }
+    },
+    "barrier_13": {
+      "frame": { "x": 160, "y": 352, "w": 32, "h": 32 }
+    },
+    "barrier_14": {
+      "frame": { "x": 192, "y": 352, "w": 32, "h": 32 }
+    },
+    "barrier_15": {
+      "frame": { "x": 224, "y": 352, "w": 32, "h": 32 }
+    },
+    "path_0": {
+      "frame": { "x": 256, "y": 256, "w": 32, "h": 32 }
+    },
+    "path_1": {
+      "frame": { "x": 288, "y": 256, "w": 32, "h": 32 }
+    },
+    "path_2": {
+      "frame": { "x": 320, "y": 256, "w": 32, "h": 32 }
+    },
+    "path_3": {
+      "frame": { "x": 352, "y": 256, "w": 32, "h": 32 }
+    },
+    "path_4": {
+      "frame": { "x": 256, "y": 288, "w": 32, "h": 32 }
+    },
+    "path_5": {
+      "frame": { "x": 288, "y": 288, "w": 32, "h": 32 }
+    },
+    "path_6": {
+      "frame": { "x": 320, "y": 288, "w": 32, "h": 32 }
+    },
+    "path_7": {
+      "frame": { "x": 352, "y": 288, "w": 32, "h": 32 }
+    },
+    "path_8": {
+      "frame": { "x": 256, "y": 320, "w": 32, "h": 32 }
+    },
+    "path_9": {
+      "frame": { "x": 288, "y": 320, "w": 32, "h": 32 }
+    },
+    "path_10": {
+      "frame": { "x": 320, "y": 320, "w": 32, "h": 32 }
+    },
+    "path_11": {
+      "frame": { "x": 352, "y": 320, "w": 32, "h": 32 }
+    },
+    "path_12": {
+      "frame": { "x": 256, "y": 352, "w": 32, "h": 32 }
+    },
+    "path_13": {
+      "frame": { "x": 288, "y": 352, "w": 32, "h": 32 }
+    },
+    "path_14": {
+      "frame": { "x": 320, "y": 352, "w": 32, "h": 32 }
+    },
+    "path_15": {
+      "frame": { "x": 352, "y": 352, "w": 32, "h": 32 }
+    },
+    "turret_zapper": {
+      "frame": { "x": 96, "y": 128, "w": 32, "h": 48 }
+    },
+    "turret_0_up": {
+      "frame": { "x": 64, "y": 128, "w": 32, "h": 32 }
+    },
+    "turret_0_up_right": {
+      "frame": { "x": 96, "y": 128, "w": 32, "h": 32 }
+    },
+    "turret_0_right": {
+      "frame": { "x": 128, "y": 128, "w": 32, "h": 32 }
+    },
+    "turret_0_down_right": {
+      "frame": { "x": 160, "y": 128, "w": 32, "h": 32 }
+    },
+    "turret_0_down": {
+      "frame": { "x": 192, "y": 128, "w": 32, "h": 32 }
+    },
+    "turret_0_down_left": {
+      "frame": { "x": 224, "y": 128, "w": 32, "h": 32 }
+    },
+    "turret_0_left": {
+      "frame": { "x": 256, "y": 128, "w": 32, "h": 32 }
+    },
+    "turret_0_up_left": {
+      "frame": { "x": 288, "y": 128, "w": 32, "h": 32 }
+    },
+    "turret_0_up_fire": {
+      "frame": { "x": 64, "y": 160, "w": 32, "h": 32 }
+    },
+    "turret_0_up_right_fire": {
+      "frame": { "x": 96, "y": 160, "w": 32, "h": 32 }
+    },
+    "turret_0_right_fire": {
+      "frame": { "x": 128, "y": 160, "w": 32, "h": 32 }
+    },
+    "turret_0_down_right_fire": {
+      "frame": { "x": 160, "y": 160, "w": 32, "h": 32 }
+    },
+    "turret_0_down_fire": {
+      "frame": { "x": 192, "y": 160, "w": 32, "h": 32 }
+    },
+    "turret_0_down_left_fire": {
+      "frame": { "x": 224, "y": 160, "w": 32, "h": 32 }
+    },
+    "turret_0_left_fire": {
+      "frame": { "x": 256, "y": 160, "w": 32, "h": 32 }
+    },
+    "turret_0_up_left_fire": {
+      "frame": { "x": 288, "y": 160, "w": 32, "h": 32 }
+    },
+    "turret_1_up": {
+      "frame": { "x": 64, "y": 192, "w": 32, "h": 32 }
+    },
+    "turret_1_up_right": {
+      "frame": { "x": 96, "y": 192, "w": 32, "h": 32 }
+    },
+    "turret_1_right": {
+      "frame": { "x": 128, "y": 192, "w": 32, "h": 32 }
+    },
+    "turret_1_down_right": {
+      "frame": { "x": 160, "y": 192, "w": 32, "h": 32 }
+    },
+    "turret_1_down": {
+      "frame": { "x": 192, "y": 192, "w": 32, "h": 32 }
+    },
+    "turret_1_down_left": {
+      "frame": { "x": 224, "y": 192, "w": 32, "h": 32 }
+    },
+    "turret_1_left": {
+      "frame": { "x": 256, "y": 192, "w": 32, "h": 32 }
+    },
+    "turret_1_up_left": {
+      "frame": { "x": 288, "y": 192, "w": 32, "h": 32 }
+    },
+    "turret_1_up_fire": {
+      "frame": { "x": 64, "y": 224, "w": 32, "h": 32 }
+    },
+    "turret_1_up_right_fire": {
+      "frame": { "x": 96, "y": 224, "w": 32, "h": 32 }
+    },
+    "turret_1_right_fire": {
+      "frame": { "x": 128, "y": 224, "w": 32, "h": 32 }
+    },
+    "turret_1_down_right_fire": {
+      "frame": { "x": 160, "y": 224, "w": 32, "h": 32 }
+    },
+    "turret_1_down_fire": {
+      "frame": { "x": 192, "y": 224, "w": 32, "h": 32 }
+    },
+    "turret_1_down_left_fire": {
+      "frame": { "x": 224, "y": 224, "w": 32, "h": 32 }
+    },
+    "turret_1_left_fire": {
+      "frame": { "x": 256, "y": 224, "w": 32, "h": 32 }
+    },
+    "turret_1_up_left_fire": {
+      "frame": { "x": 288, "y": 224, "w": 32, "h": 32 }
+    },
+    "buildMenu_hover": {
+      "frame": { "x": 0, "y": 432, "w": 32, "h": 32 }
+    },
+    "buildMenu_clicked": {
+      "frame": { "x": 0, "y": 384, "w": 32, "h": 48 }
+    },
+    "buildMenu_handle": {
+      "frame": { "x": 64, "y": 384, "w": 32, "h": 16 }
+    },
+    "buildMenu_handle_mid": {
+      "frame": { "x": 32, "y": 384, "w": 32, "h": 16 }
+    },
+    "buildMenu_turret": {
+      "frame": { "x": 32, "y": 432, "w": 32, "h": 32 }
+    },
+    "buildMenu_turret_hover": {
+      "frame": { "x": 128, "y": 432, "w": 32, "h": 32 }
+    },
+    "buildMenu_destroy": {
+      "frame": { "x": 64, "y": 432, "w": 32, "h": 32 }
+    },
+    "buildMenu_destroy_hover": {
+      "frame": { "x": 160, "y": 432, "w": 32, "h": 32 }
+    },
+    "buildMenu_upgrade": {
+      "frame": { "x": 96, "y": 432, "w": 32, "h": 32 }
+    },
+    "buildMenu_upgrade_hover": {
+      "frame": { "x": 192, "y": 432, "w": 32, "h": 32 }
+    },
+    "buildMenu_turret_dim": {
+      "frame": { "x": 224, "y": 432, "w": 32, "h": 32 }
+    },
+    "buildMenu_upgrade_dim": {
+      "frame": { "x": 256, "y": 432, "w": 32, "h": 32 }
+    },
+    "buildMenu_destroy_dim": {
+      "frame": { "x": 288, "y": 432, "w": 32, "h": 32 }
+    },
+    "enemy_0": {
+      "frame": { "x": 0, "y": 160, "w": 32, "h": 32 }
+    },
+    "enemy_0_hit": {
+      "frame": { "x": 32, "y": 160, "w": 32, "h": 32 }
+    },
+    "enemy_1": {
+      "frame": { "x": 0, "y": 192, "w": 32, "h": 32 }
+    },
+    "enemy_1_hit": {
+      "frame": { "x": 32, "y": 192, "w": 32, "h": 32 }
+    },
+    "enemy_2": {
+      "frame": { "x": 0, "y": 224, "w": 32, "h": 32 }
+    },
+    "enemy_2_hit": {
+      "frame": { "x": 32, "y": 224, "w": 32, "h": 32 }
+    },
+    "blank": {
+      "frame": { "x": 448, "y": 480, "w": 32, "h": 32 }
+    },
+    "temp": {
+      "frame": { "x": 480, "y": 480, "w": 32, "h": 32 }
+    }
+  },
+  "meta": {
+    "app": "http://www.aseprite.org/",
+    "version": "1.2.29_x64",
+    "image": "wallAtlas",
+    "scale": "1"
+  }
+}
